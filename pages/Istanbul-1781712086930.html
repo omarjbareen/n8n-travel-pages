@@ -1,0 +1,99 @@
+```html
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>איסטנבול - עיר החלומות</title>
+    <meta name="description" content="איסטנבול, עיר החלומות, ממתינה לך. גלה את המונומנטים, השווקים והתרבות העשירה של העיר">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .attractions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .attraction {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 20px);
+        }
+        .map {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+        @media (max-width: 768px) {
+            .attraction {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .attraction {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>איסטנבול - עיר החלומות</h1>
+        </div>
+        <p>איסטנבול, עיר החלומות, ממתינה לך. גלה את המונומנטים, השווקים והתרבות העשירה של העיר. איסטנבול היא עיר ייחודית, המחברת ב间יה את המזרח והמערב, המסורת והמודרנה.</p>
+        <div class="attractions">
+            <div class="attraction">
+                <h2>איה סופיה</h2>
+                <p>איה סופיה היא אחד מהמונומנטים המפורסמים ביותר באיסטנבול. היא נבנתה במאה ה-6 ושימשה ככנסייה, מסגד ואף מוזיאון.</p>
+                <p>קואורדינטות: 41.0083, 28.9750</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Hagia_Sophia_March_2017_1a.jpg/1200px-Hagia_Sophia_March_2017_1a.jpg" alt="איה סופיה">
+            </div>
+            <div class="attraction">
+                <h2>הבזאר הגדול</h2>
+                <p>הבזאר הגדול הוא אחד מהשווקים העתיקים והמפורסמים ביותר בעולם. הוא נבנה במאה ה-15 ומכיל מאות חנויות ודוכנים.</p>
+                <p>קואורדינטות: 41.0083, 28.9667</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Grand_Bazaar_Istanbul_2019.jpg/1200px-Grand_Bazaar_Istanbul_2019.jpg" alt="הבזאר הגדול">
+            </div>
+            <div class="attraction">
+                <h2>מסגד סולטן אחמד</h2>
+                <p>מסגד סולטן אחמד, הידוע גם כ"מסגד הכחול", הוא אחד מהמסגדים היפים ביותר באיסטנבול. הוא נבנה במאה ה-17 ומכיל שש מינרטים.</p>
+                <p>קואורדינטות: 41.0083, 28.9750</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Sultan_Ahmed_Mosque_Istanbul_Turkey.jpg/1200px-Sultan_Ahmed_Mosque_Istanbul_Turkey.jpg" alt="מסגד סולטן אחמד">
+            </div>
+            <div class="attraction">
+                <h2>גשר הבוספורוס</h2>
+                <p>גשר הבוספורוס הוא גשר תלוי שחוצה את מצר הבוספורוס, המחבר בין אירופה לאסיה. הוא נבנה בשנות ה-70 והוא אחד מהגשרים הארוכים ביותר בעולם.</p>
+                <p>קואורדינטות: 41.0833, 29.0833</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bosporus_Bridge_at_night.jpg/1200px-Bosporus_Bridge_at_night.jpg" alt="גשר הבוספורוס">
+            </div>
+            <div class="attraction">
+                <h2>ארמון טופקאפי</h2>
+                <p>ארמון טופקאפי הוא ארמון עות'מאני שנבנה במאה ה-15. הוא שימש כמעונו של הסולטאן וכיום הוא מוזיאון.</p>
+                <p>קואורדינטות: 41.0083, 28.9833</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Topkapi_Palace_Istanbul_Turkey.jpg/1200px-Topkapi_Palace_Istanbul_Turkey.jpg" alt="ארמון טופקאפי">
+            </div>
+        </div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12090.444444444445!2d28.974444444444446!3d41.008333333333336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb7f5232974a7b%3A0x7459b3a9c5a64e0!2z15PXmtfYsQ!5e0!3m2!1she!2sil!4v1684334112141!5m2!1she!2sil" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
+```
