@@ -1,0 +1,92 @@
+```html
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>איסטנבול - עיר החלומות</title>
+    <meta name="description" content="איסטנבול, עיר החלומות, ממתינה לך">
+    <meta name="keywords" content="איסטנבול, טורקיה, תיירות, נסיעות">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .attraction {
+            margin-bottom: 20px;
+        }
+        .attraction h2 {
+            margin-top: 0;
+        }
+        .map {
+            width: 100%;
+            height: 400px;
+            border: 1px solid #ddd;
+        }
+        @media only screen and (max-width: 768px) {
+            .container {
+                margin: 20px auto;
+                padding: 10px;
+            }
+            .map {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>איסטנבול - עיר החלומות</h1>
+        </div>
+        <p>איסטנבול, העיר הגדולה ביותר בטורקיה, היא יעד תיירותי פופולרי ביותר. העיר ממוקמת על שני צדי מצר בוספורוס, המפריד בין אירופה לאסיה. איסטנבול היא עיר עשירה בהיסטוריה, תרבות ואדריכלות, ויש בה הרבה מה לראות ולעשות.</p>
+        <div class="attraction">
+            <h2>איה סופיה</h2>
+            <p>איה סופיה היא כנסייה היסטורית שנבנתה במאה ה-6. היא ממוקמת בלב העיר, והיא אחד האתרים המפורסמים ביותר באיסטנבול. קואורדינטות: 41.0083, 28.9750</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hagia_Sophia_March_2017_1a.jpg/1200px-Hagia_Sophia_March_2017_1a.jpg" alt="איה סופיה" width="300" height="200">
+        </div>
+        <div class="attraction">
+            <h2>המסגד הכחול</h2>
+            <p>המסגד הכחול הוא מסגד מפואר שנבנה במאה ה-17. הוא ממוקם בלב העיר, והוא אחד המסגדים המפורסמים ביותר בעולם. קואורדינטות: 41.0050, 28.9767</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sultan_Ahmed_Mosque_%28Blue_Mosque%29.jpg/1200px-Sultan_Ahmed_Mosque_%28Blue_Mosque%29.jpg" alt="המסגד הכחול" width="300" height="200">
+        </div>
+        <div class="attraction">
+            <h2>הבזאר הגדול</h2>
+            <p>הבזאר הגדול הוא שוק מסורתי שנוסד במאה ה-15. הוא ממוקם בלב העיר, והוא אחד השווקים המפורסמים ביותר בעולם. קואורדינטות: 41.0083, 28.9673</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Grand_Bazaar_in_Istanbul.jpg/1200px-Grand_Bazaar_in_Istanbul.jpg" alt="הבזאר הגדול" width="300" height="200">
+        </div>
+        <div class="attraction">
+            <h2>מצר בוספורוס</h2>
+            <p>מצר בוספורוס הוא מצר ים שמפריד בין אירופה לאסיה. הוא ממוקם בלב העיר, והוא אחד המצרים המפורסמים ביותר בעולם. קואורדינטות: 41.0833, 29.0833</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Bosphorus.jpg/1200px-Bosphorus.jpg" alt="מצר בוספורוס" width="300" height="200">
+        </div>
+        <div class="attraction">
+            <h2>טופקאפי</h2>
+            <p>טופקאפי הוא ארמון היסטורי שנבנה במאה ה-15. הוא ממוקם בלב העיר, והוא אחד האתרים המפורסמים ביותר באיסטנבול. קואורדינטות: 41.0083, 28.9783</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Topkapi_Palace.jpg/1200px-Topkapi_Palace.jpg" alt="טופקאפי" width="300" height="200">
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12090.467292163812!2d28.974294599999997!3d41.008333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab8f6a0313615%3A0x9c4f9f1f4f4f4f4f!2z15TXldeS15nXlNeU15DXnNeV15nXldeQ!5e0!3m2!1she!2sil!4v1674271351448!5m2!1she!2sil" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
+```
